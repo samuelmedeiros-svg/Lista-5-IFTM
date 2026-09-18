@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b0b0b0;
+    background-image: url(laufey.png); 
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 45% auto;
+    
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.conteudo {
+    width: 52%;
+    background-color: rgba(180, 180, 180, 0.85);
+    border-radius: 8px;
+}
+
+.conteudo h1 {
+    color: #222;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    color: #222;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
